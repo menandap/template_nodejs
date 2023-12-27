@@ -15,7 +15,7 @@ RUN npm install
 COPY app_files/ ./
 
 # Expose port 8080
-EXPOSE 8080
+EXPOSE 80
 
 # Command to run the application
 CMD ["node", "app.js"]  # Replace "app.js" with your main Node.js file

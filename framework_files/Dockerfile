@@ -14,7 +14,7 @@ RUN npm install
 # Copy the application source code to the container's working directory
 COPY app_files/ ./
 
-# Expose port 8080
+# Expose port 80
 EXPOSE 80
 
 # Command to run the application
